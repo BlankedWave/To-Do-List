@@ -81,6 +81,7 @@ const App = () => {
               style={{ pointerEvents: inputText === "" && "none" }}
             />
           </form>
+          <p>Made by <a href="https://github.com/blankedwave" target="_blank">BlankedWave</a></p>
           {lists.map((e, i) => (
             <List
               key={i}
